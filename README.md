@@ -13,4 +13,4 @@ This project utilizes a **Hybrid Research-Production Pipeline**:
 
 3.  Inference (JAX/Flax):
    The inference engine (`src/inference.py`) loads the stacked weights.
-   `jax.vmap`** is used to broadcast the forward pass across the ensemble dimension, executing all 40 models in a single compiled call.
+   `jax.vmap` is used to broadcast the forward pass across the ensemble dimension, executing all 40 models in a single compiled call.
